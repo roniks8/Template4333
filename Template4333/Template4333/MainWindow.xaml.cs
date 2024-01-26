@@ -24,5 +24,11 @@ namespace Template4333
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            _4333_Kulikova win = new _4333_Kulikova();  
+            win.Show();
+        }
     }
 }
