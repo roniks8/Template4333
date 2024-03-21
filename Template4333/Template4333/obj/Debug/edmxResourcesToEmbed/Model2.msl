@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ISRPOModel1Container" CdmEntityContainer="ISRPOEntities4">
+    <EntitySetMapping Name="Ord">
+      <EntityTypeMapping TypeName="ISRPOModel1.Ord">
+        <MappingFragment StoreEntitySet="Ord">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Id_order" ColumnName="Id_order" />
+          <ScalarProperty Name="Date_of_creation" ColumnName="Date_of_creation" />
+          <ScalarProperty Name="Creation_time" ColumnName="Creation_time" />
+          <ScalarProperty Name="Id_client" ColumnName="Id_client" />
+          <ScalarProperty Name="Services" ColumnName="Services" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Closing_date" ColumnName="Closing_date" />
+          <ScalarProperty Name="Rental_time" ColumnName="Rental_time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

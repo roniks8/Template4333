@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище ISRPOModel1" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Ord">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_order" Type="nvarchar" MaxLength="100" />
+    <Property Name="Date_of_creation" Type="nvarchar" MaxLength="100" />
+    <Property Name="Creation_time" Type="nvarchar" MaxLength="100" />
+    <Property Name="Id_client" Type="nvarchar" MaxLength="100" />
+    <Property Name="Services" Type="nvarchar" MaxLength="100" />
+    <Property Name="Status" Type="nvarchar" MaxLength="100" />
+    <Property Name="Closing_date" Type="nvarchar" MaxLength="100" />
+    <Property Name="Rental_time" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityContainer Name="Хранилище ISRPOModel1Container">
+    <EntitySet Name="Ord" EntityType="Self.Ord" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
